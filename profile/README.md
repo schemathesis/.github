@@ -5,3 +5,4 @@
 - [Web app](https://app.schemathesis.io/auth/sign-up/?utm_source=org_readme)
 - [CLI](https://github.com/schemathesis/schemathesis)
 - [GitHub app](https://github.com/apps/schemathesis)
+- [GitHub Action](https://github.com/schemathesis/action)

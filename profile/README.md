@@ -35,6 +35,8 @@ Integrate API tests directly into your CI/CD pipeline with minimal YAML config.
 
 Receive concise test summaries right in your PRs, making code review more informative
 
+![schemathesis-github-report](https://github.com/schemathesis/.github/assets/1236561/b6cc4505-b1d6-4a2a-a5dd-b0938042923d)
+
 ## ☁️ [SaaS: Additional Features](https://schemathesis.io)
 
 For advanced needs:

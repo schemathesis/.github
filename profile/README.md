@@ -1,8 +1,20 @@
-# [Schemathesis.io](https://schemathesis.io): Effective API Testing, simplified
+# [Schemathesis]([https://schemathesis.io](https://github.com/schemathesis/schemathesis)): Effective API Testing, simplified
 
 ## 📋 Overview
 
-Automate API testing with just an API spec. No manual tests, no complex setups. Reduce human error, save time, and improve API reliability.
+Schemathesis is an API testing tool that automatically finds crashes and validates spec compliance.
+
+- **🎯 Catch Bugs & Ensure Compliance**: Detect hidden crashes, edge cases, and spec violations.
+
+- **⚡ Fast & Automated Testing**: Generate diverse test cases from your API schema to save time.
+
+- **🧩 Seamless Integration**: Compatible with OpenAPI, GraphQL, and CI/CD workflows.
+
+- **🔧 Customizable**: Adapt testing with Python extensions and rich configurations.
+
+- **🐞 Debugging Made Easy**: Detailed reports and reproducible cURL commands.
+
+- **🔬 Research-Backed**: Recognized in academic studies as a state-of-the-art API testing tool.
 
 ### Quick Start
 
@@ -10,16 +22,6 @@ Automate API testing with just an API spec. No manual tests, no complex setups. 
 docker run schemathesis/schemathesis:stable
    run --checks all https://example.schemathesis.io/openapi.json
 ```
-
-## 🎉 [Open Source: Schemathesis](https://github.com/schemathesis/schemathesis)
-
-- **⏳ Time-Saving**: Auto-generates test cases, cutting down manual effort.
-- **🔬 Comprehensive**: Uncover hidden bugs and security vulnerabilities with fuzzing techniques.
-- **📚 Flexible**: Compatible with various API specs for a seamless testing experience.
-- **🎛️ Customizable**: Tailor your tests with Python extensions.
-- **🔄 Reproducible**: Investigate issues with generated code samples for failing tests.
-
-## :octocat: GitHub Integration
 
 ### 🚀 [GitHub Action](https://github.com/schemathesis/action)
 
@@ -30,19 +32,3 @@ Integrate API tests directly into your CI/CD pipeline with minimal YAML config.
   with:
     schema: 'https://example.schemathesis.io/openapi.json'
 ```
-
-### 📝 [GitHub App](https://github.com/apps/schemathesis)
-
-Receive concise test summaries right in your PRs, making code review more informative
-
-![schemathesis-github-report](https://github.com/schemathesis/.github/assets/1236561/b6cc4505-b1d6-4a2a-a5dd-b0938042923d)
-
-## ☁️ [SaaS: Additional Features](https://schemathesis.io)
-
-For advanced needs:
-
-- 🌟 Enhanced data generation: Discover more issues before they hit production.
-- ✅ Detailed checks: Conduct granular assessments for stronger API integrity.
-- 📊 Graphical results: Visualize your API health and performance metrics.
-
-[Quick Start Guide for SaaS](https://docs.schemathesis.io/quick-start)

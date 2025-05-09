@@ -1,4 +1,4 @@
-# [Schemathesis]([https://schemathesis.io](https://github.com/schemathesis/schemathesis)): Effective API Testing, simplified
+# [Schemathesis]([https://schemathesis.io](https://github.com/schemathesis/schemathesis)): Supercharge your API testing, catch bugs, and ensure compliance
 
 ## 📋 Overview
 

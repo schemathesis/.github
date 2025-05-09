@@ -2,25 +2,18 @@
 
 ## 📋 Overview
 
-Schemathesis is an API testing tool that automatically finds crashes and validates spec compliance.
+Schemathesis automatically generates and runs API tests from your OpenAPI or GraphQL schema to find bugs and spec violations.
 
-- **🎯 Catch Bugs & Ensure Compliance**: Detect hidden crashes, edge cases, and spec violations.
-
-- **⚡ Fast & Automated Testing**: Generate diverse test cases from your API schema to save time.
-
-- **🧩 Seamless Integration**: Compatible with OpenAPI, GraphQL, and CI/CD workflows.
-
-- **🔧 Customizable**: Adapt testing with Python extensions and rich configurations.
-
-- **🐞 Debugging Made Easy**: Detailed reports and reproducible cURL commands.
-
-- **🔬 Research-Backed**: Recognized in academic studies as a state-of-the-art API testing tool.
+- 📑 **Schema-Based Testing** - Transform API documentation into a comprehensive test suite
+- 🚀 **Zero Configuration** - Begin testing immediately with a valid OpenAPI or GraphQL schema
+- ⚙️ **CI-Ready** - Integrate API testing into existing pipelines without complex configuration
+- 🛡️ **Effective Coverage** - Find edge cases no manual testing could uncover
+- 🔬 **Research-Backed**: [Recognized](https://dl.acm.org/doi/10.1145/3617175) in [academic research](https://ieeexplore.ieee.org/document/9793781) as a state-of-the-art API testing tool
 
 ### Quick Start
 
-```bash
-docker run schemathesis/schemathesis:stable
-   run --checks all https://example.schemathesis.io/openapi.json
+```console
+$ uvx schemathesis run http://example.schemathesis.io/openapi.json
 ```
 
 ### 🚀 [GitHub Action](https://github.com/schemathesis/action)

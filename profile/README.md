@@ -1,14 +1,15 @@
-# [Schemathesis]([https://schemathesis.io](https://github.com/schemathesis/schemathesis)): Supercharge your API testing, catch bugs, and ensure compliance
+# [Schemathesis]([https://schemathesis.io](https://github.com/schemathesis/schemathesis)): Catch API bugs before your users do
 
 ## 📋 Overview
 
-Schemathesis automatically generates and runs API tests from your OpenAPI or GraphQL schema to find bugs and spec violations.
+Schemathesis automatically generates thousands of test cases from your OpenAPI or GraphQL schema and finds edge cases that break your API.
 
-- 📑 **Schema-Based Testing** - Transform API documentation into a comprehensive test suite
-- 🚀 **Zero Configuration** - Begin testing immediately with a valid OpenAPI or GraphQL schema
-- ⚙️ **CI-Ready** - Integrate API testing into existing pipelines without complex configuration
-- 🛡️ **Effective Coverage** - Find edge cases no manual testing could uncover
-- 🔬 **Research-Backed**: [Recognized](https://dl.acm.org/doi/10.1145/3617175) in [academic research](https://ieeexplore.ieee.org/document/9793781) as a state-of-the-art API testing tool
+## What problems does it solve?
+
+- 💥 **500 errors** that crash your API on edge case inputs
+- 📋 **Schema violations** where your API returns different data than documented  
+- 🚪 **Validation bypasses** where invalid data gets accepted
+- 🔗 **Integration failures** when responses don't match client expectations
 
 ### Quick Start
 
@@ -18,7 +19,7 @@ $ uvx schemathesis run http://example.schemathesis.io/openapi.json
 
 ### 🚀 [GitHub Action](https://github.com/schemathesis/action)
 
-Integrate API tests directly into your CI/CD pipeline with minimal YAML config.
+Run Schemathesis tests in CI/CD pipelines:
 
 ```yaml
 - uses: schemathesis/action@v1

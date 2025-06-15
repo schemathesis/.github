@@ -22,7 +22,7 @@ $ uvx schemathesis run http://example.schemathesis.io/openapi.json
 Run Schemathesis tests in CI/CD pipelines:
 
 ```yaml
-- uses: schemathesis/action@v1
+- uses: schemathesis/action@v2
   with:
     schema: 'https://example.schemathesis.io/openapi.json'
 ```

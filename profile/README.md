@@ -18,7 +18,7 @@ uvx schemathesis run https://example.schemathesis.io/openapi.json
 
 - 🧪 **[Schemathesis](https://github.com/schemathesis/schemathesis)** - the CLI and pytest plugin
 - 🚀 **[GitHub Action](https://github.com/schemathesis/action)** - run Schemathesis in CI
-- 🎯 **[TraceCov](https://github.com/schemathesis/tracecov)** - keyword-level coverage of your API schema
+- 🎯 **[TraceCov](https://github.com/schemathesis/tracecov)** - which parts of your OpenAPI spec your tests never exercise
 - 🔬 **[Live Benchmarks](https://workbench.schemathesis.io)** - hour-long runs against Apache Airflow, Open WebUI, Prefect and more
 
 ```yaml
